@@ -4,29 +4,21 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <header>
-            {/* need to add class for header styling */}
-            <div className = ""> 
-            <h1>Alex Blaylock</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Personal</Link>
-                        </li>
+            <nav className="navbar">
+                
+                <div className="navbar-brand">
+                    <h1 className="navbar-item">Alex Blaylock</h1>
+                </div>
 
-                        <li>
-                            <Link to="/portfolio">Portfolio</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/contact">Contact</Link>
-                        </li>
-
-                        <li>
-                            <Link to="/resume">Resume</Link>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+                <div className="navbar-menu">
+                    <div className="navbar-end">
+                        <Link to="/" className="navbar-item">Personal</Link>
+                        <Link to="/portfolio" className="navbar-item">Portfolio</Link>
+                        <Link to="/contact" className="navbar-item">Contact</Link>
+                        <Link to="/resume" className="navbar-item">Resume</Link>
+                    </div>
+                </div>
+            </nav>
         </header>
     );
 }
