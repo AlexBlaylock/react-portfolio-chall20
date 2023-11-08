@@ -12,8 +12,8 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 // these components will show on every page
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from 'components/Header';
+import Footer from '/components/Footer';
 
 function App() {
   return (
