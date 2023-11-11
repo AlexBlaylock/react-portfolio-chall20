@@ -26,5 +26,12 @@
     background-color: var(--primary-color) !important; 
 } */
 
+.thirdTC {
+    color: var(--third-color);
+}
+
+#nameText {
+    font-size: 4rem;
+}
 
 

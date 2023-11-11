@@ -8,7 +8,7 @@ function Header() {
         <div className="hero fourthBGC">
             <div className="hero-body">
                 <div className="container has-text-centered">
-                    <h1 className="title is-size-1">Alex Blaylock • Web Developer</h1>
+                    <h1 className="title" id="nameText">{`Alex Blaylock • Web Developer`}</h1>
 
                 </div>
             </div>
