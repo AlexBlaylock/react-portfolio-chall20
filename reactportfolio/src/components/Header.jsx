@@ -11,11 +11,13 @@ function Header() {
                     <div className="columns is-vcentered">
 
                         <div className="column">
-                            <h1 className="title is-size-3-mobile" id="nameText">Alex Blaylock</h1>
-                            <h1 className="subtitle is-size-3-desktop is-size-3-mobile" id="">Web Developer</h1>
+                            <h1 className="title is-size-3-mobile is-justify-content-center-mobile" id="nameText">Alex Blaylock</h1>
+                            <h1 className="subtitle is-size-5-desktop is-size-5-mobile" id="">Web Developer</h1>
+
                         </div>
 
                         <div className="column is-narrow">
+                        <img src="./MeCircle.png" alt="Picture of me" className="is-align-content-end is-hidden-desktop" id="mePictureMobile"/>
                         <ul className="tabs">
                                 <li className="">
                                     <NavLink to="/"  className={({ isActive }) => isActive ? "has-text-weight-bold is-size-3 is-size-6-mobile" : "has-text-weight-normal is-size-4 is-size-6-mobile" }>

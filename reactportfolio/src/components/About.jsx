@@ -10,6 +10,7 @@ function About() {
                    Finishing my bootcamp in December 2023, I am ready to hit the ground running with
                    my new knowledge, and push my capabilities and improve my quality as a developer. I strive to have a positive
                    and hard working attitude, and will continue this mindset pushing forward in a new environment. 
+
                 </p>
             <img src="./MeCircle.png" alt="Picture of me" className="m-0 p-0 is-hidden-mobile" id="mePicture"/>
                 
