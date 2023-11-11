@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #B7D1D3;
+    --secondary-color: #A6C3CE;
+    --third-color: #8FB8CA;
+    --fourth-color:#91AC9A;
+}
+ /* color palette https://www.pinterest.com/pin/color-scheme-palette-image--188236459413569141/  */
+
+.primaryBGC {
+    background-color: var(--primary-color);
+} 
+
+.secondaryBGC {
+    background-color: var(--third-color);
+} 
+
+.thirdBGC {
+    background-color: var(--third-color);
+} 
+
+.fourthBGC {
+    background-color: var(--fourth-color);
+} 
+/* !important overrides other styles, was having problem with the highlighting color
+.navbar-item:hover {
+    background-color: var(--primary-color) !important; 
+} */
+
+
+

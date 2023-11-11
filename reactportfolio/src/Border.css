@@ -1,0 +1,20 @@
+/* .borderLines::before,
+.borderLines::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.borderLines::before {
+  border-top: 2px solid black; 
+  border-left: 2px solid black;
+}
+
+.borderLines::after {
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+} */
