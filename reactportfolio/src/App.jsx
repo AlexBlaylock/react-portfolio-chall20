@@ -1,7 +1,8 @@
 //importing react instead of just useState
 import React from 'react';
 // destructure BrowserRouter
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+// switched link to navlink, https://reactrouter.com/en/main/components/nav-link
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 // imports css
 import './App.css'
 import 'bulma/css/bulma.min.css'; //importing bulma
@@ -23,7 +24,6 @@ function App() {
   return (
     // sets up the route
     <Router>
-      {/* will add class later */}
       <div className="full-height primaryBGC">
         <main className="section justify-content-center">
         {/* displays header */}

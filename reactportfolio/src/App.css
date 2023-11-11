@@ -20,16 +20,11 @@
 
 #contentContainer {
     width: 100%;
-    max-width: 1800px;
+    max-width: 1920px;
     height: 84vh;
 }
 
-#footerAdjust {
-    max-width: 1800px;
-    width: 100%;
-    text-align: center;
-    margin: auto;
-}
+
 
 
 
