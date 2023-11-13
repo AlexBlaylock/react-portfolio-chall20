@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #B7D1D3;
+    --secondary-color: #A6C3CE;
+    --third-color: #8FB8CA;
+    --fourth-color:#91AC9A;
+}
+ /* color palette https://www.pinterest.com/pin/color-scheme-palette-image--188236459413569141/  */
+
+.primaryBGC {
+    background-color: var(--primary-color);
+} 
+
+.secondaryBGC {
+    background-color: var(--third-color);
+} 
+
+.thirdBGC {
+    background-color: var(--third-color);
+} 
+
+.fourthBGC {
+    background-color: var(--fourth-color);
+} 
+/* !important overrides other styles, was having problem with the highlighting color
+.navbar-item:hover {
+    background-color: var(--primary-color) !important; 
+} */
+
+.thirdTC {
+    color: var(--third-color);
+}
+
+#nameText {
+    font-size: 4rem;
+}
+
+
+#mePicture {
+    height: 500px;
+    width: 500px;
+}
+
+#mePictureMobile {
+    height: 150px;
+    width: 150px;
+    display: block;
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+/* kinda bootleg way to fix positioning of mobile image */
+
+#gradientTop {
+    background:
+    /* linear-gradient(to right, black 3px, transparent 4px) 0 0,
+    linear-gradient(to bottom, black 3px, transparent 4px) 0 0, */
+    linear-gradient(to left, black 3px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, black 3px, transparent 4px) 100% 0;
+    background-repeat: no-repeat;
+    background-size: 1600px 57px;
+
+}
+
+#gradientBottom {
+    background:
+    linear-gradient(to right, black 3px, transparent 4px) 0 100%, 
+    /* linear-gradient(to left, black 3px, transparent 4px) 100% 100%, */
+    linear-gradient(to top, black 3px, transparent 4px) 0 100%;
+    /* linear-gradient(to top, black 3px, transparent 4px) 100% 100%;  */
+
+    
+  background-repeat: no-repeat;
+  background-size: 1600px 57px;
+
+}
+
