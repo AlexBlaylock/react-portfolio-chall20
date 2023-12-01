@@ -7,7 +7,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: 'Game Pop!',
-      description: 'A higher/lower browser game. I did the styling, using MUI and Custom CSS',
+      description: 'My last group project. A higher/lower browser game. Built in React. I did the styling, using MUI and Custom CSS',
       githubLink: 'https://github.com/wyattbarger/gamepop-over-under',
       deployedLink: 'https://game-pop-0133abbe0985.herokuapp.com/',
       image: '/gamepop.png',
