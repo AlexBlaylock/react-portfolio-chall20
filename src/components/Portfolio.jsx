@@ -6,11 +6,11 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: 'Liftr',
-      description: 'My 2nd group project focused on using Handlebars and Ajax. I was tasked with styling. We used Bulma as a CSS library.',
-      githubLink: 'https://github.com/btsmith1212/Workout-Tracker',
-      deployedLink: 'https://lifter-6a5bb4529987.herokuapp.com/login',
-      image: '/liftrss.png',
+      title: 'Game Pop!',
+      description: 'A higher/lower browser game. I did the styling, using MUI and Custom CSS',
+      githubLink: 'https://github.com/wyattbarger/gamepop-over-under',
+      deployedLink: 'https://game-pop-0133abbe0985.herokuapp.com/',
+      image: '/gamepop.png',
     },
     {
       id: 2,
@@ -22,11 +22,11 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: 'Code Quiz',
-      description: 'Solo project that uses basic JavaScript so a user can do a Code Quiz that saves to local storage. Built from scratch, and styling was custom. ',
-      githubLink: 'https://github.com/your-username/project-3',
-      deployedLink: 'https://alexblaylock.github.io/mini-quiz-chall4/',
-      image: '/challenge4ss.png',
+      title: 'Liftr',
+      description: 'My 2nd group project focused on using Handlebars and Ajax. I was tasked with styling. We used Bulma as a CSS library. ',
+      githubLink: 'https://github.com/btsmith1212/Workout-Tracker',
+      deployedLink: 'https://lifter-6a5bb4529987.herokuapp.com/login',
+      image: '/liftrss.png',
     },
     {
       id: 4,
