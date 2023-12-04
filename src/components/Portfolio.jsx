@@ -31,7 +31,7 @@ const Portfolio = () => {
     {
       id: 4,
       title: 'React Portfolio',
-      description: 'Solo project, my first application built using React. Built from scratch within 1 week of learning React. Used Bulma and custom styling.',
+      description: 'This project, my first application built using React. Built from scratch within 1 week of learning React. Used Bulma and custom styling.',
       githubLink: 'https://github.com/AlexBlaylock/react-portfolio-chall20',
       // placeholder for now deployedLink: 'https://lifter-6a5bb4529987.herokuapp.com/login',
       image: '/reactportfolioss1.png',
